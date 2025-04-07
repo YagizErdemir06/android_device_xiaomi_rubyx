@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
     WifiResOverlayRuby
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-calyx
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -301,7 +301,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/calyx/interfaces/power-libperfmgr \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
     hardware/xiaomi
